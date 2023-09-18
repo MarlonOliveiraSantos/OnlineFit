@@ -17,4 +17,9 @@ public class ClienteCompleto extends usuario implements Cliente, iniciante{
         System.out.println("\nC. A técnica adequada é fundamental para evitar lesões e obter resultados eficazes. Peça a um instrutor da academia que o oriente sobre a forma correta para cada exercício.");
         System.out.println("\nD. A dieta desempenha um papel crucial no seu sucesso na academia. Certifique-se de comer alimentos equilibrados que forneçam os nutrientes necessários para sustentar o treinamento.\n\n");
     }
+
+    @Override
+    public void basico(int tipo) {
+
+    }
 }
